@@ -1,0 +1,37 @@
+/* Estilos para o cabeçalho */
+.navbar {
+    background: linear-gradient(to right, #000000, #0400fc);
+}
+
+/* Estilos para o cabeçalho */
+.navbar-brand,
+.navbar-nav , .collapse .navbar-collapse {
+    font-family: 'Jersey 25', sans-serif; /* Aplica a fonte Jersey 25 aos links e ao texto do título do cabeçalho */
+    font-size: 36px; /* Define o tamanho da fonte para 24 pixels */
+    color: white; /* Define a cor do texto como branca */
+}
+
+.nav-link {
+    font-family: 'Jersey 25', sans-serif; /* Aplica a fonte Jersey 25 aos links e ao texto do título do cabeçalho */
+    font-size: 38px; /* Define o tamanho da fonte para 24 pixels */
+    color: rgb(255, 255, 255); /* Define a cor do texto como branca */
+}
+
+#titulo {
+    font-family: 'Roboto Flex', sans-serif; /* Aplica a fonte Roboto Flex ao título do cabeçalho */
+    font-size: 42x; /* Define o tamanho da fonte para 36 pixels */
+    color: white; /* Define a cor do texto como branca */
+}
+
+.custom-carousel .carousel-inner {
+    height: 200px; /* Define a altura desejada para o carousel (por exemplo, 200 pixels) */
+}
+
+.btn-no-icon::after {
+    content: none !important;
+}
+
+.footer-icon {
+    width: 40px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
+}
